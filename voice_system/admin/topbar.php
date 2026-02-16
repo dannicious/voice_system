@@ -4,7 +4,7 @@
         <!-- Notification Bell -->
         <div class="notification" onclick="toggleNotifications()">
             <i class="fas fa-bell"></i>
-            <span class="badge">3</span>
+            <span class="badge"></span>
         </div>
 
         <!-- Profile Dropdown -->
@@ -39,7 +39,8 @@
     });
 
     // Optional: Notification bell click
-    function toggleNotifications() {
-        alert("This will show notifications later!");
-    }
+    // function toggleNotifications() {
+    //     alert("This will show notifications later!");
+    // }
 </script>
+
