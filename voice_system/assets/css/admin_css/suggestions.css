@@ -1,0 +1,96 @@
+/* Filters container */
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.filter-left {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+/* Individual filter items */
+.filter-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-item label {
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+}
+
+.filter-item input,
+.filter-item select,
+.filter-item .btn {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Print button container */
+.print-button {
+    margin-left: auto; /* push Print button to the far right */
+}
+
+.print-button .btn {
+    background-color: #1f2937;
+    color: #fff;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background 0.3s;
+}
+
+.print-button .btn:hover {
+    background-color: #374151;
+}
+
+/* Filter button hover (next to inputs) */
+.filter-item .btn:hover {
+    background-color: #374151;
+}
+
+/* Table styling */
+.table-container {
+    overflow-x: auto;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: #1f2937;
+    color: #fff;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+table tbody tr:hover {
+    background-color: #f3f4f6;
+}
+
+/* Small action buttons inside table */
+.btn.small {
+    padding: 4px 8px;
+    font-size: 0.8rem;
+}
