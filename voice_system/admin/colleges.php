@@ -44,9 +44,9 @@
                     <div class="filter-item">
                         <label for="dean">Dean:</label>
                         <select id="dean" name="dean">
-                            <option value="">All Deans</option>
+                            <!-- <option value="">All Deans</option>
                             <option value="Dr. Santos">Dr. Santos</option>
-                            <option value="Dr. Reyes">Dr. Reyes</option>
+                            <option value="Dr. Reyes">Dr. Reyes</option> -->
                             <!-- More deans dynamically -->
                         </select>
                     </div>
@@ -70,23 +70,23 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>1</td>
+                                <!-- <td>1</td>
                                 <td>College of Education</td>
                                 <td>Dr. Santos</td>
                                 <td>350</td>
                                 <td>Active</td>
-                                <td>
+                                <td> -->
                                     <button class="btn small">Edit</button>
                                     <button class="btn small">Assign Dean</button>
                                 </td>
                             </tr>
                             <tr>
-                                <td>2</td>
+                                <!-- <td>2</td>
                                 <td>College of Engineering</td>
                                 <td>Dr. Reyes</td>
                                 <td>420</td>
                                 <td>Active</td>
-                                <td>
+                                <td> -->
                                     <button class="btn small">Edit</button>
                                     <button class="btn small">Assign Dean</button>
                                 </td>
@@ -108,3 +108,4 @@
 
 </body>
 </html>
+
