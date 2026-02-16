@@ -47,10 +47,11 @@
                     <div class="filter-item">
                         <label for="college">College:</label>
                         <select id="college" name="college">
-                            <option value="">All Colleges</option>
+                            <!-- sample -->
+                            <!-- <option value="">All Colleges</option>
                             <option value="Education">Education</option>
                             <option value="Engineering">Engineering</option>
-                            <option value="Science">Science</option>
+                            <option value="Science">Science</option> -->
                         </select>
                     </div>
                     <div class="print-button">
@@ -74,24 +75,24 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>1</td>
+                                <!-- <td>1</td>
                                 <td>Juan Dela Cruz</td>
                                 <td>20260123</td>
                                 <td>Education</td>
                                 <td>jdelacruz@bisu.edu.ph</td>
                                 <td>Active</td>
-                                <td>
+                                <td> -->
                                     <button class="btn small">Edit</button>
                                     <button class="btn small">Deactivate</button>
                                 </td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>Maria Santos</td>
+                                <!-- <td>Maria Santos</td>
                                 <td>20260145</td>
                                 <td>Engineering</td>
                                 <td>msantos@bisu.edu.ph</td>
-                                <td>Inactive</td>
+                                <td>Inactive</td> -->
                                 <td>
                                     <button class="btn small">Edit</button>
                                     <button class="btn small">Reactivate</button>
@@ -113,3 +114,4 @@
     </script>
 </body>
 </html>
+
